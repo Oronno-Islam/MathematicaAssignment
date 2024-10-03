@@ -1,0 +1,135 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      4523,        127]
+NotebookOptionsPosition[      3633,        104]
+NotebookOutlinePosition[      4038,        120]
+CellTagsIndexPosition[      3995,        117]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Q4", "Title",
+ CellChangeTimes->{{3.936402999780922*^9, 
+  3.9364030003126793`*^9}},ExpressionUUID->"5fa78b79-0db8-d44a-b63b-\
+7885269d2994"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"a", "=", 
+  RowBox[{"Input", "[", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"b", "=", 
+  RowBox[{"Input", "[", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"c", "=", 
+  RowBox[{"Input", "[", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"If", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"a", "+", "b"}], ">", "c"}], "&&", 
+    RowBox[{
+     RowBox[{"b", "+", "c"}], ">", "a"}], "&&", 
+    RowBox[{
+     RowBox[{"c", "+", "a"}], ">", "b"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{"a", "==", "b", "==", "c"}], ",", 
+     RowBox[{"Print", "[", "\"\<Equilateral Triangle\>\"", "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"a", "==", "b", "!=", "c"}], "||", 
+        RowBox[{"b", "==", "c", "!=", "a"}], "||", 
+        RowBox[{"c", "==", "a", "!=", "b"}]}], ",", 
+       RowBox[{"Print", "[", "\"\<Isosceles Triangle\>\"", "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["a", "2"], "+", 
+            SuperscriptBox["b", "2"]}], "==", 
+           SuperscriptBox["c", "2"]}], "||", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["b", "2"], "+", 
+            SuperscriptBox["c", "2"]}], "==", 
+           SuperscriptBox["a", "2"]}], "||", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["c", "2"], "+", 
+            SuperscriptBox["a", "2"]}], "==", 
+           SuperscriptBox["b", "2"]}]}], ",", "\[IndentingNewLine]", 
+         RowBox[{"Print", "[", "\"\<Right Angle Triangle\>\"", "]"}]}], 
+        "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]}], 
+    "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "]"}]}], "Input",
+ CellChangeTimes->{{3.936403140042444*^9, 3.936403156048115*^9}, {
+  3.93640319707036*^9, 3.9364032554839516`*^9}, {3.936403304423891*^9, 
+  3.93640339016704*^9}, {3.93640345509338*^9, 3.9364035663945484`*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"c289da74-e871-7141-9a10-c227b0f48cfd"],
+
+Cell[BoxData["3"], "Output",
+ CellChangeTimes->{3.936403344686224*^9, 3.9364035839956665`*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"b0cab605-b1ba-b141-bfd4-236412ff9a8d"],
+
+Cell[BoxData["4"], "Output",
+ CellChangeTimes->{3.936403344686224*^9, 3.936403585312708*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"0916038a-4bdd-7645-8a89-521db78c5844"],
+
+Cell[BoxData["5"], "Output",
+ CellChangeTimes->{3.936403344686224*^9, 3.9364035862879963`*^9},
+ CellLabel->"Out[35]=",ExpressionUUID->"e4b65ef1-f3b8-5244-820b-f77f71a54b82"],
+
+Cell[BoxData["\<\"Right Angle Triangle\"\>"], "Print",
+ CellChangeTimes->{3.936403586290987*^9},
+ CellLabel->
+  "During evaluation of \
+In[33]:=",ExpressionUUID->"217ddfd3-a444-024b-9f1e-7ba495010d1e"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{569.25, 609.75},
+WindowMargins->{{429, Automatic}, {48, Automatic}},
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"e52c9055-721b-0f4b-b076-4177317f0bda"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 147, 3, 96, "Title",ExpressionUUID->"5fa78b79-0db8-d44a-b63b-7885269d2994"],
+Cell[CellGroupData[{
+Cell[748, 29, 2127, 53, 277, "Input",ExpressionUUID->"c289da74-e871-7141-9a10-c227b0f48cfd"],
+Cell[2878, 84, 173, 2, 32, "Output",ExpressionUUID->"b0cab605-b1ba-b141-bfd4-236412ff9a8d"],
+Cell[3054, 88, 171, 2, 32, "Output",ExpressionUUID->"0916038a-4bdd-7645-8a89-521db78c5844"],
+Cell[3228, 92, 173, 2, 32, "Output",ExpressionUUID->"e4b65ef1-f3b8-5244-820b-f77f71a54b82"],
+Cell[3404, 96, 201, 4, 22, "Print",ExpressionUUID->"217ddfd3-a444-024b-9f1e-7ba495010d1e"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

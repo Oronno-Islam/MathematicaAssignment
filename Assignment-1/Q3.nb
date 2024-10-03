@@ -1,0 +1,153 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      4545,        145]
+NotebookOptionsPosition[      3930,        125]
+NotebookOutlinePosition[      4335,        141]
+CellTagsIndexPosition[      4292,        138]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Q3", "Title",
+ CellChangeTimes->{{3.936402232227276*^9, 
+  3.9364022364112415`*^9}},ExpressionUUID->"c254ff8d-dba4-494f-9083-\
+a80d2094caa7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"deg", " ", ":=", " ", 
+  RowBox[{"Range", "[", 
+   RowBox[{"0", ",", "60", ",", "5"}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"r", "[", "i_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"Pi", "/", "180"}], ")"}], "*", "i"}]}], "\[IndentingNewLine]", 
+ RowBox[{"rad", ":=", 
+  RowBox[{"r", "[", "deg", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"TableForm", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"deg", ",", "rad"}], "}"}], ",", 
+   RowBox[{"TableDirections", "->", "Row"}], ",", 
+   RowBox[{"TableHeadings", "->", 
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Degree(\[Degree])\>\"", ",", 
+       "\"\<Radian\!\(\*SuperscriptBox[\((\), \(c\)]\))\>\""}], "}"}], 
+     "}"}]}]}], "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.936402265203705*^9, 3.9364023018815384`*^9}, {
+  3.936402433160055*^9, 3.936402447643654*^9}, {3.9364025241595955`*^9, 
+  3.9364026128975563`*^9}, {3.9364026531282616`*^9, 3.936402664466341*^9}, {
+  3.9364027041450996`*^9, 3.9364027490743103`*^9}, {3.9364027821024704`*^9, 
+  3.9364028477777863`*^9}, {3.9364028923681946`*^9, 3.936402939267067*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"4af0de49-38bb-4447-9071-7d9cf2cb4a92"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      TagBox["\<\"Degree(\[Degree])\"\>",
+       HoldForm], 
+      TagBox["\<\"Radian\\!\\(\\*SuperscriptBox[\\((\\), \\(c\\)]\\))\"\>",
+       HoldForm]},
+     {"0", "0"},
+     {"5", 
+      FractionBox["\[Pi]", "36"]},
+     {"10", 
+      FractionBox["\[Pi]", "18"]},
+     {"15", 
+      FractionBox["\[Pi]", "12"]},
+     {"20", 
+      FractionBox["\[Pi]", "9"]},
+     {"25", 
+      FractionBox[
+       RowBox[{"5", " ", "\[Pi]"}], "36"]},
+     {"30", 
+      FractionBox["\[Pi]", "6"]},
+     {"35", 
+      FractionBox[
+       RowBox[{"7", " ", "\[Pi]"}], "36"]},
+     {"40", 
+      FractionBox[
+       RowBox[{"2", " ", "\[Pi]"}], "9"]},
+     {"45", 
+      FractionBox["\[Pi]", "4"]},
+     {"50", 
+      FractionBox[
+       RowBox[{"5", " ", "\[Pi]"}], "18"]},
+     {"55", 
+      FractionBox[
+       RowBox[{"11", " ", "\[Pi]"}], "36"]},
+     {"60", 
+      FractionBox["\[Pi]", "3"]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+    GridBoxDividers->{
+     "Columns" -> {{False}}, "Rows" -> {False, True, {False}, False}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[1.2]}, 
+        Offset[0.2]}}],
+   {None, OutputFormsDump`HeadedColumns}],
+  Function[BoxForm`e$, 
+   TableForm[
+   BoxForm`e$, TableDirections -> Row, 
+    TableHeadings -> {{
+      "Degree(\[Degree])", 
+       "Radian\!\(\*SuperscriptBox[\((\), \(c\)]\))"}}]]]], "Output",
+ CellChangeTimes->{{3.936402297691162*^9, 3.936402303842291*^9}, {
+   3.9364025756256504`*^9, 3.9364025831022263`*^9}, 3.9364026502763042`*^9, {
+   3.9364027644295464`*^9, 3.936402790390871*^9}, 3.936402913222351*^9, 
+   3.936402943331991*^9},
+ CellLabel->
+  "Out[28]//TableForm=",ExpressionUUID->"490bdef1-e858-7d46-b09e-\
+a29e518a4787"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{569.25, 624.75},
+WindowMargins->{{429, Automatic}, {48, Automatic}},
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"05d175bf-d4ac-b94c-95a5-b6e3105b7d77"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 147, 3, 96, "Title",ExpressionUUID->"c254ff8d-dba4-494f-9083-a80d2094caa7"],
+Cell[CellGroupData[{
+Cell[748, 29, 1243, 28, 128, "Input",ExpressionUUID->"4af0de49-38bb-4447-9071-7d9cf2cb4a92"],
+Cell[1994, 59, 1908, 62, 524, "Output",ExpressionUUID->"490bdef1-e858-7d46-b09e-a29e518a4787"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
